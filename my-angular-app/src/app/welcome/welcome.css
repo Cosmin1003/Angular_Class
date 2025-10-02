@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  background-color: #ffeb3b;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p:first-of-type {
+  background-color: #4caf50;
+  color: white;
+}
+
+p:last-of-type {
+  background-color: #2196f3;
+  color: white;
+}
